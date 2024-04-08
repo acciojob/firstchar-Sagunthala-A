@@ -4,7 +4,7 @@ function firstChar(text) {
 	if(trimmedText ){
 		return trimmedText[0]
 	}else if(!trimmedText){
-		return " ";
+		return '';
 	}
 
 }
